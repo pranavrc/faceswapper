@@ -5,7 +5,7 @@ from random import choice
 from os import remove
 
 targetImage = LoadImage('sample.jpg')
-haarCascade = Load('/usr/share/opencv/haarcascades/haarcascade_frontalface_default.xml')
+haarCascade = Load('/usr/share/opencv/haarcascades/haarcascade_frontalface_alt.xml')
 storage = CreateMemStorage()
 Faces = HaarDetectObjects(targetImage, haarCascade, storage, min_neighbors = 3)
 count = 0
