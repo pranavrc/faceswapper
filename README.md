@@ -5,8 +5,8 @@ Swaps frontal faces in an image. Horribly.
 
 ===========
 
-(Original)[http://github.com/faceswapper/blob/master/sample.jpg]
+![Original](https://raw.github.com/pranavrc/faceswapper/master/sample.jpg)
 
 ==========
 
-(Swapped)[http://github.com/faceswapper/blob/master/swapped.jpg]
+![Swapped](https://raw.github.com/pranavrc/faceswapper/master/swapped.jpg)
