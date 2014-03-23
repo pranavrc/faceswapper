@@ -38,7 +38,7 @@ class FaceSwapper:
                 cv.SetImageROI(self.source_cv, faces[self.count][0])
                 target_region = cv.CreateImage(cv.GetSize(self.source_cv),
                                                self.source_cv.depth, self.source_cv.nChannels)
-                
+
                 cv.Copy(self.source_cv, target_region, None)
                 cv.ResetImageROI(self.source_cv)
 
@@ -67,7 +67,7 @@ if __name__ == "__main__":
 
     image_to_read_from = str(sys.argv[1])
     image_to_write_to = str(sys.argv[2])
-    
+
     faceswapper_obj = FaceSwapper(image_to_read_from, image_to_write_to)
     faceswapper_obj.extract_faces()
     faceswapper_obj.swap_images()
